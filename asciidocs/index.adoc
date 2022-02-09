@@ -23,6 +23,12 @@ include::../UML/Klassendiagramm.puml[]
 class Person
 @enduml
 ----
+
+[plantuml, Aktivitätsdiagramm1]
+----
+include::../UML/Aktivitätsdiagramm.puml[]
+----
+
 === Header 2
 Pull funktioniert.
 
