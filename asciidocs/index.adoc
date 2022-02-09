@@ -29,6 +29,8 @@ class Person
 include::../UML/Aktivitätsdiagramm.puml[]
 ----
 
+include::../src/Main/java/Main.java[tags=tagname]
+
 === Header 2
 Pull funktioniert.
 
