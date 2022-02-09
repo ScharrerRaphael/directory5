@@ -1,0 +1,21 @@
+= Test Vorbereitung
+Scharrer Raphael
+1.0.0, 2022-02-09: Nur eine kleine Übung
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+ifdef::backend-html5[]
+
+== Header 1
+
+[plantuml, erstesDiagramm]
+----
+include::../UML/Klassendiagramm.puml[]
+----
+
+=== Header 2
+

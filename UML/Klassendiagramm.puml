@@ -1,0 +1,18 @@
+@startuml
+abstract class Person {
+firstname
+lastname
+}
+class Teacher {
+salary
+title
+}
+class Student {
+matnr
+}
+
+note "Dies hier ist ein Kommentar" as firstComment
+firstComment.Person
+Person "*" <-- "1" Teacher
+Person <-- Student
+@enduml
