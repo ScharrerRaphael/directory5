@@ -17,5 +17,11 @@ ifdef::backend-html5[]
 include::../UML/Klassendiagramm.puml[]
 ----
 
+[plantuml, zweitesDiagramm]
+----
+@startuml
+class Person
+@enduml
+----
 === Header 2
 

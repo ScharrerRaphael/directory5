@@ -1,10 +1,12 @@
 @startuml
 abstract class Person {
-firstname
-lastname
++firstname
+-lastname
+||
+'Kommentar im Code'
 }
 class Teacher {
-salary
+#salary
 title
 }
 class Student {
